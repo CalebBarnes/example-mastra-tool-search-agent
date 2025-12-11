@@ -2,6 +2,9 @@
 
 This example demonstrates how to implement a basic **Tool Search Processor** in Mastra. Instead of providing all tools to an agent upfront, this pattern allows the agent to dynamically discover and add tools during a conversation.
 
+<img width="601" height="458" alt="image" src="https://github.com/user-attachments/assets/9d49bcd4-88ab-43cf-b987-772e5d915a87" />
+
+
 ## Why Use a Tool Search Processor?
 
 When agents have access to many tools, it can:
