@@ -23,7 +23,7 @@ export class ToolSearchProcessor implements Processor {
         toolLookup: createTool({
           id: "tool-lookup",
           description: "Lookup available tools to add to the conversation",
-          inputSchema: z.object({}),
+          inputSchema: z.object({}), // or a search query
           execute: async () => {
             return {
               tools: Object.values(this.allTools).map((tool) => ({
